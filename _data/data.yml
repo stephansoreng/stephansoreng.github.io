@@ -3,266 +3,250 @@
 #
 
 sidebar:
-    position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+  position: right # position of the sidebar : left or right
+  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: Stephan Kristiansen
+  tagline: Strategy | Management | Technology
+  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: example@email.com
-    phone: 012 345 6789
-    timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-    citizenship:
-    website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-    linkedin: alandoe
-    xing: alandoe
-    github: jekyll
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@jekyllrb'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    mastodon:  # Please include your full Mastodon link here.
-    hackerrank: # Please provide your HackerRank username.
-    leetcode: # Please provide your LeetCode username.
-    pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+  # Sidebar links
+  email: stephan.soreng@email.com
+  phone:
+  timezone: Norway/Oslo # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+  citizenship: Norwegian
+  website: https://stephansoreng.com/ # Include the full website URL, including "http://" or "https://".
+  linkedin: stephansoreng
+  github: stephansoreng
+  telegram: # add your nickname without '@' sign
+  gitlab:
+  bitbucket:
+  twitter:
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  codewars:
+  goodreads: # Number-Username, e.g. 123456-alandoe
+  mastodon: # Please include your full Mastodon link here.
+  hackerrank: # Please provide your HackerRank username.
+  leetcode: # Please provide your LeetCode username.
+  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
 
-    languages:
-      title: Languages
-      info:
-        - idiom: English
-          level: Native
+  languages:
+    title: Languages
+    info:
+    - idiom: Norwegian
+      level: Native
 
-        - idiom: French
-          level: Professional
+    - idiom: English
+      level: Professional
 
-        - idiom: Spanish
-          level: Professional
+  interests:
+    title: Interests
+    info:
+    - item: Running
+      link:
 
-    interests:
-      title: Interests
-      info:
-        - item: Climbing
-          link:
+    - item: Hiking
+      link:
 
-        - item: Snowboarding
-          link:
-
-        - item: Cooking
-          link:
+    - item: Technology
+      link:
 
 career-profile:
-    title: Career Profile
-    summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+  title: Career Profile
+  summary: |
+    I have 18 years of experience leading teams, consulting and building software and platforms. Competencies: Management, strategy development, Integration architecture, software development, team lead/product ownership, cloud security, security architecture, cloud computing (Azure Solution Architect Expert & DevOps Engineer Expert).
 education:
-    title: Education
-    info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-
+  title: Education
+  info:
+  - degree: MTech in Communication Technology
+    university: Norwegian University of Science and Technology
+    time: 2001 - 2006
+    details: |
+      The Master's program in Communication Technologies at the Norwegian University of Science and Technology (NTNU) focuses on advanced studies in the design, development, and optimization of digital communication systems.
+  - degree: MBA - Strategic management and economics
+    university: UiT - The Arctic University of Norway
+    time: 2010 - 2012
+    details: |
+      The MBA in Strategic Management and Economics at UiT The Arctic University of Norway is designed for professionals seeking advanced skills in leadership, economic analysis, and strategic decision-making. This program combines core management studies with a focus on economics and strategy, enabling students to understand market dynamics, optimize organizational performance, and implement competitive strategies in a global context.
+  - degree: Management (1-year program)
+    university: UiT - The Arctic University of Norway
+    time: 2022 - 2024
+    details: |
+      The Leadership program at UiT The Arctic University of Norway is a one-year study designed for individuals aiming to develop strong leadership skills and enhance their management expertise. This program combines theory and practical insights, covering core areas such as organizational behavior, change management, strategic leadership, and decision-making processes.
 experiences:
-    title: Experiences
-    info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-
+  title: Experiences
+  info:
+  - role: Head of Section - Application Platforms
+    time: 2023 - Present
+    company: Helse Nord IKT, Tromsø
+    details: |
+      Managing a group of skilled professionals in a very exciting time. We develop, manage and govern application platforms in the domains of integration, web apps and data & analytics.
+  - role: Senior Information Technology Architect
+    time: 2022 - 2023
+    company: Helse Nord IKT, Tromsø
+    details: |
+      As a Senior Architect I take on roles as architect, advisor and/or technical PM mainly in the domains of integration, security and cloud architecture.
+  - role: Manager
+    time: 2022 - 2022
+    company: Sopra Steria, Tromsø
+    details: |
+      Azure + Security Architecture.
+  - role: Architect
+    time: 2019 - 2022
+    company: Helse Nord IKT, Tromsø
+    details: |
+      As an adviser I took on different roles as Integration architect, security architect, cloud architect, solution architect and technical project manager. In an environment with a lot of different needs I do whatever is necessary. My goal is to keep learning and keep solving problems in the health tech domain.
+  - role: Product Owner
+    time: 2016 - 2019
+    company: Helse Nord IKT, Tromsø
+    details: |
+      Our team designs, implements and maintain integrations. We help with integration needs in the whole northern region of Norway. Keywords: Biztalk, webservices, HL7v2, HL7v3, FHIR, solution design, team management, process improvements, advisor ++
+  - role: Product Owner/Senior Software Developer
+    time: 2010 - 2016
+    company: Facility Management AS, Tromsø
+    details: |
+      Leading our app development efforts, maintaining the backend based on ASP.NET Web Api. Facilit uses a team from 99x on Sri Lanka for developing apps for both the iOS and Android platform.
+      In addition I was also part of the in-house development team developing and maintaining Facilit FDVU and Facilit ASP which was the company's SaaS products.
+  - role: Software Developer
+    time: 2009 - 2010
+    company: Breivoll Inspection Technologies AS, Tromsø
+    details: |
+      - Design (including GUI)
+      - Java programming (Swing, OSGi/r-OSGi, Hadoop/MapReduce, Oracle RDMBS)
+      - System administration (Linux)
+  - role: Analyst Programmer
+    time: 2006 - 2009
+    company: Accenture, Oslo
+    details: |
+      Programming, database administration, system administration, CI/CD
 certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+  title: Certifications
+  list:
+  - name: Microsoft Azure certifications
+    start: 2020
+    end: 2021
+    organization: Microsoft
+    credentialid: 111-222
+    credentialurl: www.google.com
+    credentialname: Google
+    details: |
+      Details about cert. Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit.
+      Nullam eget orci purus. Nullam ultrices neque nibh.
+      Aenean fermentum, felis vulputate suscipit accumsan,
+      sem enim bibendum augue, sed convallis arcu lacus at dui.
+      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+      Praesent venenatis erat non augue suscipit consectetur.
 
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
+      fringilla vel. Ut euismod, sem sed vulputate venenatis,
+      justo diam viverra velit, sed rhoncus leo leo eu justo.
+      Suspendisse placerat risus ante, sed porta nisi blandit at.
+  - name: Git learning
+    start: 2019
+    end:
+    organization: Microsoft
+    credentialid: 111-222
+    credentialurl: www.github.com
+    credentialname: Github
+    details: |
+      Older certification. Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit.
+      Nullam eget orci purus. Nullam ultrices neque nibh.
+      Aenean fermentum, felis vulputate suscipit accumsan,
+      sem enim bibendum augue, sed convallis arcu lacus at dui.
+      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+      Praesent venenatis erat non augue suscipit consectetur.
 
 projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  title: Projects
+  intro: >
+    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+  - title: Velocity
+    link: "#hook"
+    tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+  - title: DevStudio
+    link: "#"
+    tagline: "A responsive website template designed to help web developers/designers market their services."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+  - title: Tempo
+    link: "#"
+    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+  - title: Atom
+    link: "#"
+    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+  - title: Delta
+    link: "#"
+    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+  title: OSS Contributions
+  intro: >
+    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  contributions:
+  - title: Tempo
+    link: "#"
+    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+  - title: Atom
+    link: "#"
+    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+  - title: Delta
+    link: "#"
+    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+  title: Publications
+  intro: |
+    You can list your publications in this section. Lorem ipsum dolor sit
+    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+    bibendum fringilla a eu lectus.
+  papers:
+  - title: The Art of Computer Programming
+    link: "#"
+    authors: Donald E. Knuth
+    conference: Addison-Wesley, 1968
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+    link: "#"
+    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+  - title: A syntax directed compiler for Algol 60
+    link: "#"
+    authors: Edgar T. Irons
+    conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
-    title: Skills &amp; Proficiency
+  title: Skills &amp; Proficiency
 
-    toolset:
-      - name: Python & Django
-        level: 98%
+  toolset:
+  - name: Strategy
+    level: 98%
 
-      - name: Javascript & jQuery
-        level: 98%
+  - name: Management
+    level: 98%
 
-      - name: Angular
-        level: 98%
+  - name: Architecture
+    level: 98%
 
-      - name: HTML5 & CSS
-        level: 95%
+  - name: Application Integrations
+    level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+  - name: Cloud computing
+    level: 90%
 
-      - name: Sketch & Photoshop
-        level: 60%
+  - name: Security
+    level: 75%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  This is the online CV of Stephan Kristiansen!
